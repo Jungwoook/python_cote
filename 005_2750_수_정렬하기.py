@@ -1,5 +1,4 @@
 import sys
-import bisect
 
 n = int(sys.stdin.readline())
 num = []
