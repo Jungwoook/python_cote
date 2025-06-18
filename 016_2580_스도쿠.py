@@ -1,6 +1,6 @@
 import sys
 
-board = [list(map(int, input().split())) for _ in range(9)]
+board = [list(map(int, sys.stdin.readline().strip().split())) for _ in range(9)]
 blanks = [(i, j) for i in range(9) for j in range(9) if board[i][j] == 0]
 
 rows = [set() for _ in range(9)]
